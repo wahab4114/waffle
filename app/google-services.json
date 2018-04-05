@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "805945284844",
+    "firebase_url": "https://waffle-c16c0.firebaseio.com",
+    "project_id": "waffle-c16c0",
+    "storage_bucket": "waffle-c16c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805945284844:android:ac1a4f3b49124cf8",
+        "android_client_info": {
+          "package_name": "com.example.user.waffle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805945284844-au04596m59j6scfm553jhim0g90rfqpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.waffle",
+            "certificate_hash": "993993d5c41a0d65d467727682fd9ed657c7783e"
+          }
+        },
+        {
+          "client_id": "805945284844-lkagtu5bi4ekni69u5adp1m4anvevaeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.waffle",
+            "certificate_hash": "819fba0e595a828072c03cd0877f345b99a209c7"
+          }
+        },
+        {
+          "client_id": "805945284844-307u7j5lbbtqev6kktt1036vnnsg8364.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWz3xooxdR-cmm78iioVx2Hfdq4GfmgCI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805945284844-307u7j5lbbtqev6kktt1036vnnsg8364.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

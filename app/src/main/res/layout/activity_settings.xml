@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.waffle.SettingsActivity">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/main_setting_image"
+       android:layout_width="170dp"
+       android:layout_height="170dp"
+       android:src="@drawable/defaultuser"
+       android:layout_marginTop="30dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:layout_below="@+id/main_setting_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/main_settings_displayname" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Hi there, I am using Waffle Chat App "
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/main_settings_displayname"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_settings_status" />
+
+    <Button
+
+        android:id="@+id/main_settings_changeImage"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="change image"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/main_settings_status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/main_settings_changestatus"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Change Status"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/main_settings_changeImage"
+        android:layout_alignStart="@+id/main_settings_changeImage" />
+
+
+</RelativeLayout>

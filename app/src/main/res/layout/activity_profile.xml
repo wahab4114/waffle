@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.waffle.ProfileActivity"
+    android:background="#212121">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/defaultuser"
+        android:background="#4E5D73" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/profile_displayname" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Hi there, I am using Waffle Chat App "
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/profile_displayname"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile_status" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Total Firends "
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/profile_status"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile_ttlfirend" />
+
+    <Button
+        android:id="@+id/profile_sndreqbtn"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Send Friend Request"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/profile_ttlfirend"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/profile_declinereq"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Decline request"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_below="@+id/profile_sndreqbtn"
+        android:layout_alignStart="@+id/profile_sndreqbtn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/wahab/Desktop/Waffle/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/wahab/Desktop/Waffle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b0999a498a374295cc0e4b1d63a0ca02bdae6f10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wahab/Desktop/Waffle/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b5cfba54d8c4fa7918fe0d88646d36ca92560ee">
+        <dex dex="/Users/wahab/Desktop/Waffle/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f68a67fb44d94b77c93ca2f85e12bb700506bd4/classes.dex" />
+    </item>
+
+</items>
